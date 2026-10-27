@@ -1,0 +1,25 @@
+CARPETA "cabezas"
+=================
+Aquí van tus imágenes PNG de 300x300 px (las cabezas de las notas).
+
+Copia aquí estos 12 archivos (con estos nombres exactos, en minúscula):
+
+  cerebro.png   dona.png     emoji1.png   emoji2.png
+  galleta.png   nota.png     ovni.png     pelota.png
+  pizza.png     planeta.png  reloj.png    sol.png
+
+La carpeta "cabezas" debe quedar JUNTO a index.html:
+
+  notaventuras-kids/
+    index.html
+    cabezas/
+      cerebro.png ... sol.png
+
+AGREGAR UNA CABEZA NUEVA
+------------------------
+1) Copia el nuevo .png (300x300) en esta carpeta.
+2) Abre index.html, busca la lista  const HEADS = [ ... ]  y añade una línea:
+     { id:'luna', label:'Luna', file:'luna.png' },
+
+NOTA PARA GITHUB PAGES: los nombres distinguen mayúsculas/minúsculas.
+Sube la carpeta "cabezas" completa junto con index.html.
